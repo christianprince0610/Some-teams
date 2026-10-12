@@ -63,3 +63,18 @@ h1 {
     color: #17324d;
     font-weight: bold;
 }
+
+
+.about-page {
+    background-color: #eaf7f0;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.about-page h1 {
+    color: #2471a3;
+}
+
+.about-page h2 {
+    color: #23845b;
+}
