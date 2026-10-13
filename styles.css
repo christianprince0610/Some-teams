@@ -86,3 +86,11 @@
     object-fit: contain;
     margin: 0 auto 12px;
 }
+
+h1 {
+    text-align: center;
+}
+
+main > p {
+    text-align: center;
+}
