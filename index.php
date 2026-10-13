@@ -10,7 +10,13 @@ require_once __DIR__ . '/header.php';
 
     <section class="teams">
         <?php foreach ($teams as $name => $team): ?>
-            <article class="team">
+            <article class="team"><?php if (!empty($team['logo'])): ?>
+    <img
+        class="team-logo"
+        src="<?= htmlspecialchars($team['logo'], ENT_QUOTES, 'UTF-8') ?>"
+        alt="<?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?> logo"
+    >
+<?php endif; ?>
                 <h2><?= htmlspecialchars($name) ?></h2>
                 <p>League: <?= htmlspecialchars($team['league']) ?></p>
                 <p>City: <?= htmlspecialchars($team['city']) ?></p>
