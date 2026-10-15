@@ -94,3 +94,8 @@ h1 {
 main > p {
     text-align: center;
 }
+
+.about-page img {
+    display: block;
+    margin: 0 auto;
+}
